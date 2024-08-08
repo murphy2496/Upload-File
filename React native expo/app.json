@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Upload",
+    "slug": "Upload",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/iconX.png",
+    "splash": {
+      "image": "./assets/processingX.gif",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "This app needs access to your photo library.",
+        "NSCameraUsageDescription": "This app needs access to your camera.",
+        "NSMicrophoneUsageDescription": "This app needs access to your microphone.",
+        "NSDocumentTypeUsageDescription": "This app needs access to your files."
+      }
+    },
+    "android": {
+      "permissions": [
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "package": "com.yourcompany.appmurphy"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}

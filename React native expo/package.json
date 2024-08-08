@@ -1,0 +1,44 @@
+{
+  "dependencies": {
+    "@expo/metro-runtime": "^3.1.1",
+    "@react-native-async-storage/async-storage": "^1.24.0",
+    "@react-navigation/bottom-tabs": "^6.6.1",
+    "@react-navigation/material-bottom-tabs": "^6.2.29",
+    "@react-navigation/native": "^6.1.18",
+    "@react-navigation/native-stack": "^6.10.1",
+    "axios": "^1.7.2",
+    "expo": "^51.0.0",
+    "expo-av": "~14.0.6",
+    "expo-document-picker": "^12.0.2",
+    "expo-file-system": "~17.0.1",
+    "expo-image-picker": "^15.0.7",
+    "expo-intent-launcher": "^11.0.1",
+    "expo-sharing": "^12.0.1",
+    "expo-status-bar": "~1.12.1",
+    "expo-web-browser": "~13.0.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-native": "0.74.1",
+    "react-native-paper": "^5.12.3",
+    "react-native-reanimated": "3.10.0",
+    "react-native-safe-area-context": "^4.10.8",
+    "react-native-screens": "^3.32.0",
+    "react-native-toast-message": "^2.2.0",
+    "react-native-vector-icons": "^10.1.0",
+    "react-native-web": "~0.19.6",
+    "react-native-webview": "^13.8.6",
+    "socket.io-client": "^4.7.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.19.3"
+  },
+  "name": "appmurphy",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  }
+}
