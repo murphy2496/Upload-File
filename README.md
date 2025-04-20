@@ -1,5 +1,5 @@
-## FRONT-END : REACT NATIVE
+## Frontend : React native
 
-BACK-END : EXPRESS.JS
+## Backend : Express.js
 
-ORM : SEQUELIZE
+## ORM : Sequelize
